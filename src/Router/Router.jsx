@@ -10,7 +10,7 @@ import HomeLayout from "../Layout/HomeLayout/HomeLayout";
 import DashBoard from "../Pages/DashBoard";
 import ErrorPage from "../Pages/ErrorPage";
 import Jobs from "../Pages/Jobs";
-import User_Enrolled from './../Components/SideNavs/Student/User_Enrolled';
+import UserEnrolled from './../Components/SideNavs/NormalUser/UserEnrolled';
 import AdminPrivate from "./Private/AdminPrivate";
 import BasicCheck from "./Private/BasicCheck";
 import { default as HrPrivate } from "./Private/HrPrivate";
@@ -66,7 +66,7 @@ const Router = createBrowserRouter([
           },
           {
             path: "enrolled",
-            element: <User_Enrolled /> 
+            element: <UserEnrolled /> 
           },
         ],
       }
